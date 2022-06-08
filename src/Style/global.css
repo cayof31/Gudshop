@@ -1,0 +1,46 @@
+* {
+  border: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-size: 62.5%;
+  --Light-Primary-Blue: #007aff;
+  --Light-Primary-Purple: #ae6eff;
+  --Light-Primary-Navy: #40507e;
+  --Light-Secondary-Yellow: #ffc84e;
+  --Light-Secondary-Orange: #f5993f;
+  --Light-Secondary-Green-Teal: #018480;
+  --Light-Secondary-Green: #2fb07e;
+  --Light-Secondary-Danger: #ff4a4a;
+  --Light-Neutral-Black-100: #142232;
+  --Light-Neutral-Black-80: #434e5b;
+  --Light-Neutral-Black-60: #727a84;
+  --Light-Neutral-Black-40: #a1a7ad;
+  --Light-Neutral-Black-20: #d0d3d6;
+  --Light-Tint-Blue-100: #00254c;
+  --Light-Tint-Blue-90: #003d80;
+  --Light-Tint-Blue-80: #0055b3;
+  --Light-Tint-Blue-70: #0062cc;
+  --Light-Tint-Blue-60: #3395ff;
+  --Light-Tint-Blue-50: #80bdff;
+  --Light-Tint-Blue-40: #b3d7ff;
+  --Light-Tint-Blue-30: #e6f2ff;
+  --Light-Tint-Blue-20: #f4f9fd;
+  font-family: "Inter", sans-serif;
+}
+button {
+  background: var(--Light-Primary-Blue);
+  text-align: center;
+  width: 35.4rem;
+  height: 4.5rem;
+
+  border-radius: 0.8rem;
+
+  color: #ffffff;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.92rem;
+
+  cursor: pointer;
+}
