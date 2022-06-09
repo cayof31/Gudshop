@@ -1,4 +1,4 @@
-body {
+.Register {
   display: grid;
   grid-template-columns: 50vw 50vw;
   grid-template-rows: 100vh;
@@ -28,13 +28,13 @@ section p span {
   font-size: 3.4rem;
   color: #ffc84e;
 }
-main {
+.Register-main {
   grid-area: main;
 }
-div > img {
+.Register-main div > img {
   margin-bottom: 4rem;
 }
-main h2 {
+.EnterForm h2 {
   font-size: 3.4rem;
   font-weight: 700;
   line-height: 4.08rem;
@@ -51,13 +51,13 @@ main h2 {
   display: flex;
   gap: 0.3rem;
 }
-main p {
+.EnterForm p {
   font-size: 1.4rem;
   font-weight: 400;
   line-height: 2.1rem;
   color: var(--Light-Neutral-Black-80);
 }
-main a {
+.EnterForm a {
   font-weight: 600;
   font-size: 1.4rem;
   line-height: 2.1rem;
@@ -65,20 +65,20 @@ main a {
   color: var(--Light-Primary-Blue);
   cursor: pointer;
 }
-main form {
+.EnterForm form {
   display: flex;
   flex-direction: column;
   align-items: start;
   margin-bottom: 2.95rem;
 }
-main form label {
+.EnterForm form label {
   font-size: 1.4rem;
   font-weight: 400;
   line-height: 2.1rem;
   color: var(--Light-Neutral-Black-80);
   margin-bottom: 0.4rem;
 }
-main form input {
+.EnterForm form input {
   width: 35.4rem;
   height: 4.5rem;
   font-size: 1.4rem;
@@ -93,14 +93,14 @@ main form input {
 }
 .center {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
 }
-main form input::placeholder {
+.EnterForm form input::placeholder {
   color: var(--Light-Neutral-Black-40);
 }
-main span {
+.EnterForm span {
   font-size: 1.4rem;
   font-weight: 400;
   line-height: 2.1rem;
@@ -119,6 +119,6 @@ main span {
   align-items: center;
 }
 .with img {
-  weight: 2.4rem !important;
+  width: 2.4rem;
   height: 2.4rem;
 }

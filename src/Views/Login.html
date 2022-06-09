@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Godshop Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../Style/global.css">
+    <link rel="stylesheet" type="text/css" href="../Style/Register.css">
+    <link rel="stylesheet" type="text/css" href="../Style/Login.css">
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="../Style/smallLogin.css">
+</head>
+
+<body>
+    <main class="Login center EnterForm">
+        <div class="container center">
+            <div>
+                <div class="content">
+                    <h2>Welcome Back!</h2>
+                    <div>
+                        <p>Please sign in your account to get full access our website</p>
+                    </div>
+                </div>
+            </div>
+            <form action="#">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Input your email here">
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Type your password here">
+                <div class="checkbox">
+                    <input type="checkbox" id="remember" name="remember" class="checkbox">
+                    <label for="remember">Remember me</label>
+                    <a href="#">Forget password</a>
+                </div>
+                <button type="submit">Login</button>
+            </form>
+            <div class="createAccount">
+                <p>Not registerd yet? </p><a href="./Register.html"> Create an Account</a>
+            </div>
+            <br>
+            <span>Or Register With</span>
+            <button class="with"><img src="../../assets/google.svg" alt=""> Register With Google</button>
+            <button class="with"><img src="../../assets/apple.svg" alt=""> Register With Apple</button>
+        </div>
+    </main>
+</body>
+
+</html>
