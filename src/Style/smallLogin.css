@@ -6,7 +6,21 @@ body,.Login, .container  {
   border: none;
 
 }
+
 .container::before,.Login:after {
   background-image: url("");
   display: none;
+}
+.content h2 {
+  margin-top: 1.7rem;
+  margin-bottom: 1.6rem;
+}
+.EnterForm span {
+  margin-bottom: 3rem;
+}
+.container button + button {
+  margin-bottom: 3.6rem;
+}
+.with{
+  height: 4.6rem;
 }
